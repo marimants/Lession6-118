@@ -1,0 +1,25 @@
+.bog-box {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.backgroung-image {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.astrounaut-image {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	top: 280px;
+	left: 1400px;
+	animation: astrounaut 7s infinite 1s alternate;
+}
+@keyframes astrounaut {
+     0% {top: 280px; left: 1400px;}
+     25% {top: 80px; left: 1300px;}
+     50% {top: 400px; left: 850px;}
+     75% {top: 100px; left: 200px;}
+     100% {top: 350px; left: 100px;}
+}
