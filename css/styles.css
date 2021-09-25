@@ -16,6 +16,7 @@
 	left: 1400px;
 	animation: astrounaut 7s infinite 1s alternate;
 }
+
 @keyframes astrounaut {
      0% {top: 280px; left: 1400px;}
      25% {top: 80px; left: 1300px;}
